@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*  mdropdown下拉插件 */
+.mdropdown_ui { position: relative; z-index: 3; }
+.mdropdown_ui .mdropdown_options { display: none; position: absolute; left: 0; width: 100%; z-index: 3; }
+.mdropdown_ui .mdropdown_options ul , .mdropdown_ui .mdropdown_options li { margin: 0; padding: 0; list-style: none; }
+.mdropdown_blue_ui { display: inline-block; *display: inline; width: 270px; }
+.mdropdown_blue_ui .mdropdown_options { top: 40px; }
+.mdropdown_blue_ui .mdropdown_selected span { display: block; line-height: 24px; padding: 8px 20px 8px 20px; border: 0 none; font-size: 16px; background: #eef2f9 url('../images/bg_dropdown.png') no-repeat 90% center; color: #74869f; cursor: default; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.mdropdown_blue_ui .mdropdown_options a { display: block; padding: 8px 20px 8px 20px; font-size: 16px; background-color: #e0e8f7; color: #74869f; text-decoration: none; }
+.mdropdown_blue_ui .mdropdown_options a:hover { background-color: #b7c6e2; }
+.mdropdown_blue_ui .mdropdown_options li.on a { background-color: #b7c6e2; }
